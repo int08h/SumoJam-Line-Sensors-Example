@@ -5,7 +5,7 @@
 
 namespace {
   // Delay between loop()s in milliseconds
-  constexpr unsigned long DELAY_MS = 250;
+  constexpr unsigned long DELAY_MS = 100;
 
   // Line sensors interface
   Zumo32U4LineSensors lineSensors = Zumo32U4LineSensors{};
