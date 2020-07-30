@@ -24,6 +24,9 @@ void setup()
 {
   // Initialize the sensors
   lineSensors.initThreeSensors();
+
+  // Initialize the LCD display
+  lcd.init();
 }
 
 void loop()
